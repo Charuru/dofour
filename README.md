@@ -1,6 +1,6 @@
 # dofour
 
-A simple, meter-based to-do list built with Electron and React. Most todo list have bad UX and have too many items onscreen at once making it hard to do one thing. This fixes that problem.
+A simple, meter-based to-do list built with Electron and React. Most todo lists have bad UX and have too many items onscreen at once, making it hard to do one thing. This fixes that problem.
 
 ![dofour](assets/dofourscreen.png)
 
