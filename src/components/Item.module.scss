@@ -5,20 +5,22 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 0 10px 0;
-  padding: 20px;
+  padding: 50px;
   width: 100%;
-  min-height: 70px;
+  min-height: 200px;
   background: $item-color;
   border: none;
   border-radius: 3px;
   box-sizing: border-box;
   font-size: $item-font-size;
+  white-space: wrap;
   @media (max-width: 600px) {
     margin: 20px auto;
   }
   .itemName {
     width: calc(100% - 110px);
     overflow: auto;
+    white-space: wrap;
 
     &::-webkit-scrollbar {
       background-color: $item-color;
@@ -48,32 +50,32 @@
 
     button {
       position: relative;
-      height: 24px;
+      height: $button-size;
+      width: $button-size;
       border: none;
+      cursor: pointer;
+      font-size: $button-size;
+      background: none;
       &.delete {
-        width: 24px;
-        background: no-repeat url("../img/x.svg");
+        color: $red;
         &:after {
           background: $red;
         }
       }
       &.pause {
-        width: 24px;
-        background: no-repeat url("../img/pause.svg");
+        color: $yellow;
         &:after {
           background: $yellow;
         }
       }
       &.resume {
-        width: 24px;
-        background: no-repeat url("../img/resume.svg");
+        color: $yellow;
         &:after {
           background: $yellow;
         }
       }
       &.complete {
-        width: 30px;
-        background: no-repeat url("../img/check.svg");
+        color: $green;
         &:after {
           background: $green;
         }
@@ -95,8 +97,8 @@
           animation: click 0.5s;
         }
       }
-      &:hover:after {
-        animation: click 0.5s;
+      &:hover {
+        color: #bbb;
       }
     }
   }

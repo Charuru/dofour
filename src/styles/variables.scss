@@ -1,15 +1,16 @@
-$bg: #403f4d;
-$green: #62dca5;
-$yellow: #f7f879;
-$red: #e1675a;
+$bg: #262a2b;
+$green: #333;
+$yellow: #333;
+$red: #333;
 
-$input-color: #2e2d33;
-$item-color: #4e4d5c;
+$input-color: #262a2b;
+$item-color: #1d1f22;
 $font-color: #fbfafb;
 
 $big-font-size: 64px;
-$heading-font-size: 24px;
-$item-font-size: 20px;
+$heading-font-size: 38px;
+$item-font-size: 40px;
+$button-size: 28px;
 
 @keyframes click {
   0% {
@@ -22,7 +23,7 @@ $item-font-size: 20px;
   }
   100% {
     opacity: 0;
-    width: 30px;
-    height: 30px;
+    width: 48px;
+    height: 48px;
   }
 }
